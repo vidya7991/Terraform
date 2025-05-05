@@ -7,3 +7,4 @@ terraform validate
 terraform apply
 terraform show
 terraform state list
+terraform apply -var "instance_name=YetAnotherName"
